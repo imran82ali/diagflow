@@ -1,0 +1,54 @@
+{
+  "id": "4fd0df2f-0d2c-49fb-9fea-c4e7652b2f89",
+  "name": "first intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hi",
+          "lifespan": 5
+        },
+        {
+          "name": "hello",
+          "lifespan": 5
+        },
+        {
+          "name": "hey",
+          "lifespan": 5
+        },
+        {
+          "name": "asslam-o-alaikum",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi, this is first chatbot Hello",
+            "Hi, I am PIAIC Chatbot, How Can I help you?",
+            "Hi, I am PIAIC Chatbot, Welcome at PIAIC"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
